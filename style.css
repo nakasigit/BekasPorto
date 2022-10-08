@@ -205,30 +205,31 @@ body {
 
 .contact-isi a:hover {
     text-decoration: none;
-    color: rgb(247, 168, 112);;
+    color: rgb(247, 168, 112);
+    ;
 }
 
-.education-year{
+.education-year {
     font-weight: bold;
 }
 
-.education-desc{
+.education-desc {
     padding-bottom: 10px;
 }
 
-#program-language-content ul{
+#program-language-content ul {
     list-style: none;
 }
 
-#program-language-content li{
+#program-language-content li {
     padding-bottom: 10px;
 }
 
-#skill-content ul{
+#skill-content ul {
     padding-left: 20px;
 }
 
-#skill-content li{
+#skill-content li {
     padding-bottom: 10px;
 }
 
