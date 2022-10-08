@@ -165,7 +165,7 @@ body {
 }
 
 .side {
-    padding-top: 25px;
+    padding-top: 10px;
     color: chocolate;
 }
 
@@ -200,12 +200,12 @@ body {
 
 .contact-isi a {
     text-decoration: none;
-    color: chocolate;
+    color: #d2691e;
 }
 
 .contact-isi a:hover {
     text-decoration: none;
-    color: rgb(247, 168, 112);
+    color: #f7a870;
     ;
 }
 
@@ -231,6 +231,73 @@ body {
 }
 
 #skill-content li {
+    padding-bottom: 10px;
+}
+
+.skill-list{
+    float: left;
+}
+
+.skill-bar-container{
+    float: right;
+    height: 20px;
+    width: 40%;
+    background-color: #f7a870;
+    border-radius: 25px;
+}
+
+.skill-bar {
+    height: 100%;
+    color: #f7a870;
+    background-color: #d2691e;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.skill-bar.communication{
+    width: 85%;
+}
+
+.skill-bar.teamwork{
+    width: 96%;
+}
+
+.skill-bar.problemsolve{
+    width: 91%;
+}
+
+.skill-bar.programming{
+    width: 94%;
+}
+
+.skill-bar.design{
+    width: 97%;
+}
+
+#achievement-content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+#achievement-content li {
+    padding-bottom: 10px;
+}
+
+#language-content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+#language-content li {
+    padding-bottom: 10px;
+}
+
+#hobbies-content ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+#hobbies-content li {
     padding-bottom: 10px;
 }
 
