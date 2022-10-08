@@ -32,10 +32,6 @@ body {
     background-color: bisque;
 }
 
-ul {
-    list-style-type: none;
-}
-
 .nav-list ul {
     text-align: center;
     display: inline-block;
@@ -220,7 +216,19 @@ ul {
     padding-bottom: 10px;
 }
 
+#program-language-content ul{
+    list-style: none;
+}
+
 #program-language-content li{
+    padding-bottom: 10px;
+}
+
+#skill-content ul{
+    padding-left: 20px;
+}
+
+#skill-content li{
     padding-bottom: 10px;
 }
 
