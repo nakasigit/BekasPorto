@@ -234,11 +234,11 @@ body {
     padding-bottom: 10px;
 }
 
-.skill-list{
+.skill-list {
     float: left;
 }
 
-.skill-bar-container{
+.skill-bar-container {
     float: right;
     height: 20px;
     width: 40%;
@@ -254,23 +254,23 @@ body {
     font-weight: bold;
 }
 
-.skill-bar.communication{
+.skill-bar.communication {
     width: 85%;
 }
 
-.skill-bar.teamwork{
+.skill-bar.teamwork {
     width: 96%;
 }
 
-.skill-bar.problemsolve{
+.skill-bar.problemsolve {
     width: 91%;
 }
 
-.skill-bar.programming{
+.skill-bar.programming {
     width: 94%;
 }
 
-.skill-bar.design{
+.skill-bar.design {
     width: 97%;
 }
 
@@ -301,13 +301,13 @@ body {
     padding-bottom: 10px;
 }
 
-.social-media{
+.social-media {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer{
+.footer {
     text-align: center;
 }
 
@@ -316,23 +316,23 @@ body {
     padding: 0 10px 0 10px;
 }
 
-.socmed a{
+.socmed a {
     text-decoration: none;
     color: chocolate;
     display: flex;
     justify-content: center;
 }
 
-.socmed a:hover{
+.socmed a:hover {
     color: #f7a870;
 }
 
-.socmed img{
+.socmed img {
     padding-left: 5px;
     width: 14pt;
 }
 
-.design-header{
+.design-header {
     padding: 5% 0 5% 0;
     display: flex;
     flex-direction: row;
@@ -342,17 +342,54 @@ body {
     gap: 20%;
 }
 
-.design-header-left{
+.design-header-left {
     float: left;
     width: 50%;
 }
 
-#fotosigit{
+#fotosigit {
     opacity: 65%;
     width: 250pt;
 }
 
+#design-content h3 {
+    text-align: center;
+}
 
+.ui-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+#ui-project-1 img{
+    width: 325px;
+}
+
+#ui-project-2 img{
+    width: 500px;
+}
+
+.button{
+    width: fit-content;
+    margin: 10px 5px 10px 5px;
+    background-color: #d2691e;
+    padding: 15px 10px 15px 10px;
+    border-radius: 15px;
+}
+
+.button:hover, .button:hover a{
+    background-color: #f7a870;
+    color: #d2691e;
+}
+
+.button a{
+    color: #f7a870;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 @media only screen and (max-width: 1143px) {
 
