@@ -347,13 +347,24 @@ body {
     width: 50%;
 }
 
+.design-header-right {
+    text-align: right;
+    float: right;
+    width: 50%;
+}
+
 .design-header-left h1{
+    font-family: 'Cinzel', serif;
+}
+
+.design-header-right h1{
     font-family: 'Cinzel', serif;
 }
 
 #fotosigit {
     opacity: 65%;
     width: 300pt;
+    height: 260pt;
 }
 
 #design-content h2 {
@@ -389,6 +400,10 @@ body {
     background-color: #d2691e;
     padding: 10px;
     border-radius: 15px;
+}
+
+.design-header-right .button{
+    float: right;
 }
 
 .button:hover, .button:hover a{
