@@ -29,6 +29,7 @@ body {
     padding: 0;
     padding-left: 15%;
     padding-right: 15%;
+    color: chocolate;
     background-color: bisque;
 }
 
@@ -123,6 +124,7 @@ body {
 }
 
 #avatar {
+    padding-top: 5px;
     float: left;
     width: 200px;
     height: 200px;
@@ -133,7 +135,6 @@ body {
 .profile-intro {
     display: inline-block;
     text-align: left;
-    padding-top: 5px;
     width: 500px;
 }
 
@@ -157,7 +158,6 @@ body {
     height: 1px;
     border-width: 0;
     background-color: chocolate;
-
 }
 
 .profile.detail {
@@ -300,6 +300,59 @@ body {
 #hobbies-content li {
     padding-bottom: 10px;
 }
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+.socmed {
+    float: left;
+    padding: 0 10px 0 10px;
+}
+
+.socmed a{
+    text-decoration: none;
+    color: chocolate;
+    display: flex;
+    justify-content: center;
+}
+
+.socmed a:hover{
+    color: #f7a870;
+}
+
+.socmed img{
+    padding-left: 5px;
+    width: 14pt;
+}
+
+.design-header{
+    padding: 5% 0 5% 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 20%;
+}
+
+.design-header-left{
+    float: left;
+    width: 50%;
+}
+
+#fotosigit{
+    opacity: 65%;
+    width: 250pt;
+}
+
+
 
 @media only screen and (max-width: 1143px) {
 
