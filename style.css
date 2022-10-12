@@ -394,33 +394,52 @@ body {
     width: 500px;
 }
 
+#project-3 img{
+    width: 500px;
+    height: 325px;
+}
+
+#project-4 img{
+    width: 500px;
+    height: 250px;
+}
+
 .button{
     width: fit-content;
     margin: 20px 5px 20px 5px;
     background-color: #d2691e;
     padding: 10px;
     border-radius: 15px;
+    color: #f7a870;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .design-header-right .button{
     float: right;
 }
 
-.button:hover, .button:hover a{
+.button:hover, .button:hover{
     background-color: #f7a870;
     color: #d2691e;
-}
-
-.button a{
-    color: #f7a870;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 .design hr{
     height: 1px;
     width: 90%;
     background-color: rgba(210, 105, 30, 0.26);
+}
+
+#design-content h3 a{
+    text-decoration: none;
+    color: chocolate;
+    
+}
+
+#design-content h3 a:hover{
+    text-decoration: underline;
+    color: #f7a870;
+    
 }
 
 @media only screen and (max-width: 1143px) {
