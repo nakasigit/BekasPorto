@@ -30,16 +30,17 @@ body {
     padding-left: 15%;
     padding-right: 15%;
     color: chocolate;
-    background-color: bisque;
 }
 
 .nav-list ul {
     text-align: center;
     display: inline-block;
     vertical-align: top;
+    font-size: 18px;
 }
 
 .nama a {
+    font-size: 18px;
     text-decoration: none;
     font-family: 'Poppins';
     color: chocolate;
@@ -80,7 +81,22 @@ body {
 
 .nav-list li {
     float: left;
+    padding-left: 10px;
+}
+
+.nav-list-isi {
+    text-align: center;
+    display: block;
+    margin-left: 5%;
     padding: 10px;
+    width: 70px;
+    background-color: bisque;
+    border-radius: 7%;
+}
+
+.nav-list-isi:hover {
+    background-color: chocolate;
+    color: bisque;
 }
 
 .dropdown-project {
@@ -108,10 +124,6 @@ body {
 
 .profile.header {
     padding-bottom: 20px;
-}
-
-#project:hover {
-    font-weight: lighter;
 }
 
 .dropdown-project-content a:hover {
@@ -340,6 +352,15 @@ body {
     justify-content: center;
     text-align: left;
     gap: 20%;
+}
+
+.design-header.experience {
+    flex-direction: column;
+}
+
+.h1-subtitle{
+    text-align: center;
+    width: 70%;
 }
 
 .design-header-left {
