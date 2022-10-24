@@ -89,9 +89,10 @@ body {
     display: block;
     margin-left: 5%;
     padding: 10px;
-    width: 70px;
+    width: 4.5rem;
     background-color: bisque;
-    border-radius: 7%;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
 .nav-list-isi:hover {
@@ -109,6 +110,7 @@ body {
     position: absolute;
     background-color: #ffffff;
     width: 160px;
+    font-size: 16px;
     box-shadow: 0px 8px 16px 0px rgba(21, 21, 21, 0.2);
 }
 
@@ -131,6 +133,11 @@ body {
 }
 
 .content {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.content-experience {
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -345,7 +352,7 @@ body {
 }
 
 .design-header {
-    padding: 5% 0 5% 0;
+    padding: 0 5% 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -383,7 +390,6 @@ body {
 }
 
 #fotosigit {
-    opacity: 65%;
     width: 300pt;
     height: 260pt;
 }
@@ -426,14 +432,17 @@ body {
 }
 
 .button{
+    cursor: pointer;
+    user-select: none;
     width: fit-content;
     margin: 20px 5px 20px 5px;
     background-color: #d2691e;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
     color: #f7a870;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.6s ease;
 }
 
 .design-header-right .button{
@@ -451,6 +460,14 @@ body {
     background-color: rgba(210, 105, 30, 0.26);
 }
 
+.content-experience hr{
+    margin-top: 20px;
+    border-width: 0;
+    height: 1px;
+    width: 90%;
+    background-color: rgba(210, 105, 30, 0.26);
+}
+
 #design-content h3 a{
     text-decoration: none;
     color: chocolate;
@@ -460,7 +477,68 @@ body {
 #design-content h3 a:hover{
     text-decoration: underline;
     color: #f7a870;
-    
+}
+
+.experiences-list{
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.slider{
+    float: left;
+    margin-right: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+}
+
+.imageslider{
+    position: relative;
+    transition: 1s;
+    width: 100%;
+    height: min-content;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    border-radius: 0 3px 3px 0;
+    transition: 0.6s ease;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.507);
+    font-size: 24px;
+    padding: 5px;
+}
+
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #d2691e;
+    color: rgb(0, 0, 0);
+}
+
+.experience-header{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.experience-sub-header{
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 1143px) {
